@@ -3,10 +3,9 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: samarkar <samarkar@student.42lyon.fr>      +#+  +:+       +#+         #
+#    By: samarkar <samarkar@student.42lyon.fr>      +#+  +:+       +#+         # 
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/20 15:27:38 by samarkar          #+#    #+#              #
-#    Updated: 2025/10/20 15:27:39 by samarkar         ###   ########.fr        #
+#    Updated: 2025/11/04 21:56:58 by samarkar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
-
