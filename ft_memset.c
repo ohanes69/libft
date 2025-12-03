@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: samarkar <samarkar@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/21 15:27:17 by samarkar          #+#    #+#             */
-/*   Updated: 2025/10/21 17:09:57 by samarkar         ###   ########.fr       */
+/*   Created: 2025/11/04 18:45:26 by samarkar          #+#    #+#             */
+/*   Updated: 2025/11/20 16:54:59 by samarkar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stdlib.h>
 
 void	*ft_memset(void *b, int c, size_t len)
 {

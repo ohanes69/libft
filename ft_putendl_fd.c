@@ -5,16 +5,16 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: samarkar <samarkar@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/27 17:40:02 by samarkar          #+#    #+#             */
-/*   Updated: 2025/10/27 18:09:26 by samarkar         ###   ########.fr       */
+/*   Created: 2025/11/05 13:09:56 by samarkar          #+#    #+#             */
+/*   Updated: 2025/11/20 16:29:33 by samarkar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <unistd.h>
 
 void	ft_putendl_fd(char *s, int fd)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
 	while (s[i])

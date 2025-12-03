@@ -5,12 +5,10 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: samarkar <samarkar@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/21 15:03:43 by samarkar          #+#    #+#             */
-/*   Updated: 2025/10/21 15:10:35 by samarkar         ###   ########.fr       */
+/*   Created: 2025/11/04 18:44:24 by samarkar          #+#    #+#             */
+/*   Updated: 2025/11/20 02:30:41 by samarkar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isascii(int c)
 {

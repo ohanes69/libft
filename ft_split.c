@@ -6,16 +6,16 @@
 /*   By: samarkar <samarkar@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/06 19:15:58 by samarkar          #+#    #+#             */
-/*   Updated: 2025/11/07 01:10:48 by samarkar         ###   ########lyon.fr   */
+/*   Updated: 2025/11/25 19:11:48 by samarkar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stdlib.h>
 
-int	ft_count_words(const char *s, char c)
+static size_t	ft_count_words(const char *s, char c)
 {
-	int	i;
-	int	count;
+	size_t	i;
+	size_t	count;
 
 	i = 0;
 	count = 0;
@@ -31,19 +31,21 @@ int	ft_count_words(const char *s, char c)
 	return (count);
 }
 
-int	is_charset(char c, char set)
+static size_t	is_charset(char c, char set)
 {
 	if (c == set)
 		return (0);
 	return (1);
 }
 
-char	*ft_dup(char const *s1, char set)
+static char	*ft_dup(char const *s1, char set)
 {
-	int		i;
-	int 	len;
-	char	*copy;
+	size_t		i;
+	size_t		len;
+	char		*copy;
 
+	if (!s1)
+		return (NULL);
 	i = 0;
 	while (s1[i] && s1[i] != set)
 		i++;
@@ -61,13 +63,13 @@ char	*ft_dup(char const *s1, char set)
 	return (copy);
 }
 
-void	ft_free_tab(char **tab)
+static void	ft_free_tab(char **tab)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
 	if (!tab)
-		return;
+		return ;
 	while (tab[i])
 	{
 		free(tab[i]);
@@ -78,42 +80,29 @@ void	ft_free_tab(char **tab)
 
 char	**ft_split(char const *s, char c)
 {
-	char	**tab;
-	int		i;
-	int		len;
+	char		**tab;
+	size_t		i;
+	size_t		len;
 
-	if (!s)
-		return (NULL);
 	len = ft_count_words(s, c);
-	if (!(tab = malloc(sizeof(char *) * (len + 1))))
+	tab = malloc(sizeof(char *) * (len + 1));
+	if (!tab)
 		return (NULL);
 	i = 0;
 	while (i < len)
 	{
-		while (*s != '\0' && !is_charset(*s, c))
+		while (*s != '\0' && is_charset(*s, c) == 0)
 			s++;
-		if (!(tab[i] = ft_dup(s, c)))
+		tab[i] = ft_dup(s, c);
+		if (!tab[i])
 		{
 			ft_free_tab(tab);
 			return (NULL);
 		}
-		while (*s != '\0' && is_charset(*s, c))
+		while (*s != '\0' && is_charset(*s, c) == 1)
 			s++;
 		i++;
 	}
 	tab[i] = NULL;
 	return (tab);
-}
-int main(void)
-{
-	char **tab = ft_split("salut les amis", ' ');
-	int len = ft_count_words("salut les amis", ' ');
-	int i = 0;
-	
-	while (i < len)
-	{
-		printf("%s\n", tab[i]);
-		i++;
-	}
-	ft_free_tab(tab);
 }

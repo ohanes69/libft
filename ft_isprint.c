@@ -5,12 +5,10 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: samarkar <samarkar@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/21 15:12:28 by samarkar          #+#    #+#             */
-/*   Updated: 2025/10/21 15:14:47 by samarkar         ###   ########.fr       */
+/*   Created: 2025/11/04 18:44:39 by samarkar          #+#    #+#             */
+/*   Updated: 2025/11/20 02:30:50 by samarkar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isprint(int c)
 {

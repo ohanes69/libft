@@ -5,12 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: samarkar <samarkar@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/11/01 17:45:32 by samarkar          #+#    #+#             */
-/*   Updated: 2025/11/01 18:16:12 by samarkar         ###   ########.fr       */
+/*   Created: 2025/11/05 13:10:33 by samarkar          #+#    #+#             */
+/*   Updated: 2025/11/20 18:18:43 by samarkar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

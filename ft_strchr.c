@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: samarkar <samarkar@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/23 17:44:02 by samarkar          #+#    #+#             */
-/*   Updated: 2025/10/23 19:03:46 by samarkar         ###   ########.fr       */
+/*   Created: 2025/11/05 13:10:16 by samarkar          #+#    #+#             */
+/*   Updated: 2025/11/21 17:15:59 by samarkar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stdlib.h>
 
 char	*ft_strchr(const char *s, int c)
 {

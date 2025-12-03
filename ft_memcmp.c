@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: samarkar <samarkar@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/23 14:26:22 by samarkar          #+#    #+#             */
-/*   Updated: 2025/10/25 17:43:33 by samarkar         ###   ########.fr       */
+/*   Created: 2025/11/04 18:45:05 by samarkar          #+#    #+#             */
+/*   Updated: 2025/11/20 16:54:38 by samarkar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stdlib.h>
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

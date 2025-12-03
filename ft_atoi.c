@@ -5,18 +5,18 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: samarkar <samarkar@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/22 20:05:57 by samarkar          #+#    #+#             */
-/*   Updated: 2025/10/22 20:17:05 by samarkar         ###   ########.fr       */
+/*   Created: 2025/11/04 18:43:32 by samarkar          #+#    #+#             */
+/*   Updated: 2025/11/20 18:21:27 by samarkar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stdlib.h>
 
 int	ft_atoi(const char *str)
 {
-	int	i;
-	int	res;
-	int	sign;
+	size_t	i;
+	long	res;
+	int		sign;
 
 	i = 0;
 	res = 0;

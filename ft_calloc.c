@@ -5,24 +5,21 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: samarkar <samarkar@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/26 16:46:12 by samarkar          #+#    #+#             */
-/*   Updated: 2025/10/26 18:24:03 by samarkar         ###   ########.fr       */
+/*   Created: 2025/11/04 18:43:57 by samarkar          #+#    #+#             */
+/*   Updated: 2025/11/21 17:01:20 by samarkar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdint.h>
+#include <stdlib.h>
 
 void	*ft_calloc(size_t count, size_t size)
 {
-	char		*p;
+	char	*p;
 
-	if (count == 0 || size == 0)
-	{
-		p = malloc(0);
-		if (!p)
-			return (NULL);
-		return (p);
-	}
+	if (count != 0 && size > SIZE_MAX / count)
+		return (NULL);
 	p = malloc(count * size);
 	if (!p)
 		return (NULL);

@@ -5,12 +5,10 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: samarkar <samarkar@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/20 18:25:51 by samarkar          #+#    #+#             */
-/*   Updated: 2025/10/20 19:03:51 by samarkar         ###   ########.fr       */
+/*   Created: 2025/11/04 18:44:31 by samarkar          #+#    #+#             */
+/*   Updated: 2025/11/20 02:30:45 by samarkar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isdigit(int c)
 {

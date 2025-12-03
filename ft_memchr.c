@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: samarkar <samarkar@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/23 16:16:17 by samarkar          #+#    #+#             */
-/*   Updated: 2025/10/25 17:36:57 by samarkar         ###   ########.fr       */
+/*   Created: 2025/11/04 18:44:57 by samarkar          #+#    #+#             */
+/*   Updated: 2025/11/20 16:54:32 by samarkar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stdlib.h>
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {

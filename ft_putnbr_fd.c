@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: samarkar <samarkar@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/27 17:59:54 by samarkar          #+#    #+#             */
-/*   Updated: 2025/10/27 18:08:36 by samarkar         ###   ########.fr       */
+/*   Created: 2025/11/05 13:10:03 by samarkar          #+#    #+#             */
+/*   Updated: 2025/11/20 16:29:40 by samarkar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <unistd.h>
 
 void	ft_putnbr_fd(int n, int fd)
 {

@@ -5,22 +5,22 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: samarkar <samarkar@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/24 18:42:39 by samarkar          #+#    #+#             */
-/*   Updated: 2025/10/25 17:07:54 by samarkar         ###   ########.fr       */
+/*   Created: 2025/11/05 13:11:03 by samarkar          #+#    #+#             */
+/*   Updated: 2025/11/20 20:01:57 by samarkar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stdlib.h>
 
-char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
+char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
 	size_t	i;
 	size_t	j;
 	char	*hays;
 	char	*need;
 
-	hays = (char *)haystack;
-	need = (char *)needle;
+	hays = (char *)big;
+	need = (char *)little;
 	i = 0;
 	if (need[0] == '\0')
 		return (hays);

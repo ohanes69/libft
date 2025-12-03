@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: samarkar <samarkar@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/21 17:15:15 by samarkar          #+#    #+#             */
-/*   Updated: 2025/10/27 16:49:58 by samarkar         ###   ########.fr       */
+/*   Created: 2025/11/04 18:43:48 by samarkar          #+#    #+#             */
+/*   Updated: 2025/11/20 16:52:53 by samarkar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stdlib.h>
 
 void	ft_bzero(void *s, size_t n)
 {

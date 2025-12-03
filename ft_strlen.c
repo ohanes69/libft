@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: samarkar <samarkar@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/20 15:26:47 by samarkar          #+#    #+#             */
-/*   Updated: 2025/10/20 17:30:32 by samarkar         ###   ########.fr       */
+/*   Created: 2025/11/05 13:10:51 by samarkar          #+#    #+#             */
+/*   Updated: 2025/11/20 16:56:55 by samarkar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stdlib.h>
 
 size_t	ft_strlen(const char *s)
 {

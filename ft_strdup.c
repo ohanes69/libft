@@ -5,12 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: samarkar <samarkar@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/26 16:15:07 by samarkar          #+#    #+#             */
-/*   Updated: 2025/10/26 16:36:07 by samarkar         ###   ########.fr       */
+/*   Created: 2025/11/05 13:10:23 by samarkar          #+#    #+#             */
+/*   Updated: 2025/11/20 18:17:37 by samarkar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 char	*ft_strdup(const char *s1)
 {
